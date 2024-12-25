@@ -29,7 +29,7 @@ goles = {}
 tarjetas = {}
 
 #Leer el archivo CSV
-with open("C:\\Users\\pgabe\\OneDrive\\Documentos\\Copa_Mundial_2023.csv") as per:
+with open("C:\\Users\\user\\OneDrive\\Documentos\\Copa_Mundial_2023.csv") as per:
     reader = csv.reader(per)
     header = next(reader)  #Leer la primera fila que contiene los encabezados
     
